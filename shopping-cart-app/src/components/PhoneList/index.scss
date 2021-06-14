@@ -1,0 +1,59 @@
+.phone-list {
+  margin-top: .44rem;
+  
+  .phone-item {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 1.3rem;
+    border-bottom: 1px solid #dedede;
+
+    .img-wrap {
+      width: 1.3rem;
+      height: 1.3rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .info-wrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: .12rem .1rem .1rem 1.4rem;
+      box-sizing: border-box;
+
+      .title {
+        font-size: .16rem;
+      }
+
+      .badge-wrap {
+        .badge {
+          display: inline-block;
+          border: .01rem solid #999;
+          border-radius: .03rem;
+          font-size: .12rem;
+          color: #999;
+          padding: .03rem;
+          margin: .13rem .1rem 0 0; 
+        }
+
+        &.color {
+          .badge {
+            border: .01rem solid #f40;
+            color: #f40;
+          }
+        }
+      }
+
+      .price {
+        font-size: .16rem;
+        color: #f40;
+        padding: .1rem 0;
+      }
+    }
+  }
+}
