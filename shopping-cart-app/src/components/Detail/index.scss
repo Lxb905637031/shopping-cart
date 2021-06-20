@@ -1,0 +1,42 @@
+.detail-wrapper {
+    margin: .44rem 0;
+    .info-wrap {
+        padding: .15rem;
+        box-sizing: border-box;
+        .title {
+            font-size: .2rem;
+            padding: .15rem 0;
+        }
+        .sale {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: .16rem;
+            margin: .15rem 0;
+            .price {
+                font-size: .25rem;
+                color: #f40;
+            }
+        }
+        .btn-group {
+            margin-top: .2rem;
+            h2 {
+                font-size: .16rem;
+                padding: .1rem 0;
+            }
+            .radio-btn {
+                font-size: .16rem;
+                background-color: #fff;
+                color: #f40;
+                border: .01rem solid #f40;
+                border-radius: .05rem;
+                padding: 0 .05rem;
+                margin-right: .15rem;
+                &.current {
+                    background-color: #f40;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

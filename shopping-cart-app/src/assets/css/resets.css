@@ -230,3 +230,12 @@ a {
 img {
     width: 100%
 }
+
+html {
+    overflow-y: scroll;
+}
+
+ :root {
+    overflow-y: auto;
+    overflow-x: hidden;
+}

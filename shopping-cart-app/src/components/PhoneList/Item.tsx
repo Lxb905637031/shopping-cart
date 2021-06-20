@@ -20,8 +20,7 @@ const PhoneItem: FC<IProps> = ({
     name,
     color,
     version
-  } = dataItem;
-  console.log(version)
+  } = dataItem
   return (
     <div className="phone-item">
       <Link to={`/detail/${id}/${cid}/${version[0].vid}/1`}>

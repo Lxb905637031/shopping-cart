@@ -1,0 +1,22 @@
+.selector {
+    h2 {
+        display: inline-block;
+        font-size: .16rem;
+    }
+    button,
+    input {
+        width: .2rem;
+        height: .2rem;
+        background-color: #fff;
+        border: .01rem solid #999;
+        font-size: .13rem;
+        box-sizing: border-box;
+    }
+    button {
+        border-radius: 50%;
+    }
+    input {
+        text-align: center;
+        margin: 0 .05rem;
+    }
+}
